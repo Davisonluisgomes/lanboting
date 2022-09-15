@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link  rel="stylesheet" href="css/bootstrap.rtl.min.css">
+
+    <link type="text\css" href="st.css">
+
+
+    <style>
+
+.banner-img{
+
+background-image: url('img/w.jpg');
+background-size: cover;
+
+}
+
+    </style>
+    <title>navs</title>
+
+
+</head>
+<body>
+
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 ">
+    <div class="container">
+        <a href="#" class="navbar-brand">oTTTomundo </a>
+    
+        <button 
+        type="button";
+        class="navbar-toggler";
+        data-bs-target="#navbarNav";
+        data-bs-toggle="collapse";
+        aria-controls="navbarNav";
+        aria-expanded="false";
+        aria-label="Toggle Navbar";
+>
+
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+    <div class="ms-auto"></div>
+    <ul class="navbar-nav">
+       
+        <li class="nav-item">
+            <a href="#" class="nav-link text-white">home</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-white">about</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-white">location</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-white">works</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-white">content</a>
+        </li>
+    
+    </ul>
+</div>
+</div>
+
+
+
+    </div>
+   </nav> 
+<div class="banner-img w-100 vh-100 d-flex justify-content-center align-items-center">
+
+    <div class="content text-center">
+        <h1 class="text-white">oTTTo</h1>
+</div>
+</div>
+
+<div class="container my-5 d-grid gap-5">
+<div class="p-5 border">
+<p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit
+    . Sit esse numquam, labore dolore iste enim, 
+    rerum cupiditate voluptate culpa reprehenderit dolores corrupti dolorum eius modi, vero nam odio ipsum a!
+</p>
+</div>
+
+<div class="p-5 border">
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit
+        . Sit esse numquam, labore dolore iste enim, 
+        rerum cupiditate voluptate culpa reprehenderit dolores corrupti dolorum eius modi, vero nam odio ipsum a!
+    </p>
+    </div>
+
+    <div class="p-5 border">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit
+            . Sit esse numquam, labore dolore iste enim, 
+            rerum cupiditate voluptate culpa reprehenderit dolores corrupti dolorum eius modi, vero nam odio ipsum a!
+        </p>
+        </div>
+</div>
+
+
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+
+var nav = document.querySelector('nav');
+
+window.addEventListener('scroll', function () {
+   if(window.pageYOffset > 100){
+    nav.classList.add('bg-dark', 'shadow');
+   }else{
+    nav.classList.remove('bg-dark', 'shadow');
+   }
+
+});
+
+
+</script>
+</body>
+</html>
